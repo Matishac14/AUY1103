@@ -116,3 +116,7 @@ terraform apply -auto-approve
 ```bash
 terraform destroy -auto-approve
 ```
+
+## Validaciones
+
+Para validar el uso de ALB de forma correcta, es necesario dentro del navegador desactivar el cache, esto puede hacerse con clic derecho en inspeccionar > Network > Disable cache (mientras la consola de desarrollador esté abierta).
